@@ -17,7 +17,7 @@ function Finance() {
             console.error('Error adding finance data:', error.message);
         } else {
             console.log('Data added:', data);
-            fetchTotals();  // <-- Ensure this line is here.
+            fetchTotals();
         }
     }
     
